@@ -156,7 +156,7 @@ class Profile
 	 */
 	public function getInterests()
 	{
-		return $this->interest;
+		return $this->interests;
 	}
 
 	/**
