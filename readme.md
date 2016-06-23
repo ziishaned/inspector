@@ -57,7 +57,39 @@ $person->getContactInfo();
 // ]
 
 $person->getOrganizations();
+// An array of organizations found in which he worked or currently working
+// [
+//    [
+//    	  "name" 		=> "Strategic Systems International",
+//        "startDate" 	=> "2014-07",
+//        "title" 		=> "Software Engineer",
+//        "current" 	=> true,               
+//    ],
+//	  [..],
+// ]
+
 $person->getDemographics();
+// An array of organizations found in which he worked or currently working
+// [
+//    [
+//    	  "locationDeduced"	=> [
+//				"normalizedLocation" => "Pakistan",
+//				"deducedLocation"    => "Pakistan",
+//		  		"country" => [
+//					"name" 	=> "Pakistan",
+//               	"code" => "PK",
+//		   		],
+//		   		"continent" => [
+//					"deduced" 	=> true
+//              	"name" 		=> "Asia"
+//		   		],
+//		   		"likelihood" => true,
+//		  ],
+//		  "locationGeneral" => "Pakistan",
+//        "gender" => "Male",               
+//    ],
+// ]
+
 $person->getSocialProfiles();
 $person->getInterests();
 $person->getEmail();
