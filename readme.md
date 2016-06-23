@@ -31,7 +31,19 @@ $inspector = new Inspector($apiKey);
 $person = $inspector->getProfile("ziishaned@gmail.com");
 
 $person->getPhotos();
+// An array of arrays where typename could be one of 'facebook', 'Gravatar', 'Twitter' etc
+// [
+//    [
+//        "typeName" => "Facebook"
+//        "url"      => "https://d2ojpxxtu63wzl.cloudfront.net/static/a2dcfe7a0136f34ace8c8fd378557a96_ce4301d022a5423869916af01ad8c2c//                       e11f7638b11958db47b89bf4ef7369ab7",
+//    ],
+//    [..],
+//    [..],
+//    [..],
+// ]
+
 $person->getContactInfo();
+
 $person->getOrganizations();
 $person->getDemographics();
 $person->getSocialProfiles();
