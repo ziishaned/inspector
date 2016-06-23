@@ -1,5 +1,5 @@
 #Inspector
-Inspector is PHP wrapper to search people profiles on different social networks e.g facebook, twitter, google+ etc.
+Inspector is PHP wrapper that fetches people complete profiles detail from different sources using user email address.
 
 ##Installation
 You can install the library using the following ways:
