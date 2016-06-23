@@ -1,4 +1,5 @@
 #Inspector
+
 Inspector - A PHP library that fetches the social accounts, website, name, photos, employment history and other details possible for the user by his email.
 
 ##Installation
@@ -23,6 +24,7 @@ I'm going to use the following email address to demonstrate the usage of this ph
 >ziishaned@gmail.com
 
 ```php
+// Your FulContact API key https://portal.fullcontact.com/signup
 $apiKey = "";
 
 $inspector = new Inspector($apiKey);
@@ -37,14 +39,11 @@ $person->getInterests();
 $person->getEmail();
 ```
 
-##Feedback
+## Feedback
 If you notice that there might be some improvements in code you can create a pull request or report an issue. You can also contact me at <a href="mailto:ziishaned@gmail.com">ziishaned@gmail.com</a>.
 
-#Note
-This php wrapper not run until you provide <a href="https://portal.fullcontact.com/signup">FullContact</a> API key. You need to signup on <a href="https://portal.fullcontact.com/signup">FullContact</a> to run this php wrapper. 
-The Free plan of FullContact include:
-- 500 matches per month.
-- 60 matches per minute.
+# Note
+Please note that the library relies upon <a href="https://portal.fullcontact.com/signup">FullContact API</a> and you will need an API key to use this package.
 
 ## License
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
