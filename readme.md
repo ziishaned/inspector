@@ -60,32 +60,32 @@ $person->getOrganizations();
 // An array of organizations found in which he worked or currently working
 // [
 //    [
-//    	  "name" 		=> "Strategic Systems International",
-//        "startDate" 	=> "2014-07",
-//        "title" 		=> "Software Engineer",
-//        "current" 	=> true,               
+//        "name"        => "Strategic Systems International",
+//        "startDate"   => "2014-07",
+//        "title"       => "Software Engineer",
+//        "current"     => true,               
 //    ],
-//	  [..],
+//    [..],
 // ]
 
 $person->getDemographics();
 // An array of information about the user location
 // [
 //    [
-//    	  "locationDeduced"	=> [
-//				"normalizedLocation" => "Pakistan",
-//				"deducedLocation"    => "Pakistan",
-//		  		"country" => [
-//					"name" 	=> "Pakistan",
-//               	"code" => "PK",
-//		   		],
-//		   		"continent" => [
-//					"deduced" 	=> true
-//              	"name" 		=> "Asia"
-//		   		],
-//		   		"likelihood" => true,
-//		  ],
-//		  "locationGeneral" => "Pakistan",
+//        "locationDeduced" => [
+//              "normalizedLocation" => "Pakistan",
+//              "deducedLocation"    => "Pakistan",
+//              "country" => [
+//                  "name"  => "Pakistan",
+//                  "code" => "PK",
+//              ],
+//              "continent" => [
+//                  "deduced"   => true
+//                  "name"      => "Asia"
+//              ],
+//              "likelihood" => true,
+//        ],
+//        "locationGeneral" => "Pakistan",
 //        "gender" => "Male",               
 //    ],
 // ]
@@ -94,15 +94,15 @@ $person->getSocialProfiles();
 // An array of user social network links or information
 // [
 //    [
-//    	  "bio" 	 => "Full Stack Web Engineer, Blogger, Freelancer, IT Enthusiast, Open Source and Web Lover, PHP and Javascript Fanatic, http://t.co/8lHamq4FpE",
+//        "bio"      => "Full Stack Web Engineer, Blogger, Freelancer, IT Enthusiast, Open Source and Web Lover, PHP and Javascript Fanatic, http://t.co/8lHamq4FpE",
 //        "typeName" => "Twitter",
-//        "url"		 => "https://twitter.com/kamranahmed_se",
+//        "url"      => "https://twitter.com/kamranahmed_se",
 //        "username" => "kamranahmed_se",              
 //    ],
-//	  [..],
-//	  [..],
-//	  [..],
-//	  [..],
+//    [..],
+//    [..],
+//    [..],
+//    [..],
 // ]
 
 $person->getInterests();
