@@ -23,6 +23,8 @@ I'm going to use the following email address to demonstrate the usage of this ph
 >ziishaned@gmail.com
 
 ```php
+$apiKey = "";
+
 $inspector = new Inspector($apiKey);
 $person = $inspector->getProfile("ziishaned@gmail.com");
 
