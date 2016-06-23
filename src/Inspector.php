@@ -43,7 +43,7 @@ class Inspector
             throw new ValidationException("Please provide API key. You can get API Key by signing up on https://portal.fullcontact.com/signup");
         }
 
-        $this->serviceUrl = $this->serviceUrl . "apiKey=e0a5c0bfd84a458e";
+        $this->serviceUrl = $this->serviceUrl . "apiKey=" . $key;
     }
 
     /**
