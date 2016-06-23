@@ -2,17 +2,25 @@
     "name": "zeeshan/inspector",
     "description": "Inspector is PHP wrapper that fetches people complete profiles detail from different sources using user email address.",
     "type": "Library",
+    "keywords": ["php"],
+    "homepage": "https://github.com/zeeshanu/",
     "license": "MIT",
     "authors": [
         {
             "name": "Zeeshan Ahmed",
-            "email": "ziishaned@gmail.com"
+            "email": "ziishaned@gmail.com",
+            "role": "Developer",
+            "homepage": "https://github.com/zeeshanu/"
         }
     ],
     "autoload": {
         "psr-4": {
             "Zeeshan\\Inspector\\": "src/"
+            "Tests\\": "tests/"
         }
     },
-    "require": {}
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "4.2.*"
+    }
 }
