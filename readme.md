@@ -1,5 +1,5 @@
 #Inspector
-Inspector is PHP wrapper that fetches people complete profiles detail from different sources using user email address.
+Inspector - A PHP library that fetches the social accounts, website, name, photos, employment history and other details possible for the user by his email.
 
 ##Installation
 You can install the library using the following ways:
