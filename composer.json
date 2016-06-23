@@ -1,7 +1,6 @@
 {
     "name": "zeeshan/inspector",
-    "description": "Inspector is PHP wrapper that fetches people complete profiles detail from different sources using user email address. — Edit
-",
+    "description": "Inspector is PHP wrapper that fetches people complete profiles detail from different sources using user email address.",
     "type": "Library",
     "license": "MIT",
     "authors": [
