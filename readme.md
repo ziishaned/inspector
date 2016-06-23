@@ -14,7 +14,7 @@ You can install this through <a href="http://getcomposer.org/">Composer</a>, a d
 composer require zeeshanu/Inspector
 ```
 
-For further details you can find the package at <a href="https://packagist.org/packages/zeeshanu/Inspector">Packagist</a>.
+For further details you can find the package at <a href="https://packagist.org/packages/zeeshanu/inspector">Packagist</a>.
 
 ##Manual way
 - Copy <code>src</code> to your codebase, perhaps to the vendor directory.
@@ -22,6 +22,12 @@ For further details you can find the package at <a href="https://packagist.org/p
 
 ##Feedback
 If you notice that there might be some improvements in code you can create a pull request or report an issue. You can also contact me at <a href="mailto:ziishaned@gmail.com">ziishaned@gmail.com</a>.
+
+#Note
+This php wrapper not run until you provide <a href="https://portal.fullcontact.com/signup">FullContact</a> API key. You need to signup on <a href="https://portal.fullcontact.com/signup">FullContact</a> to run this php wrapper. 
+The Free plan of FullContact include:
+- 500 matches per month.
+- 60 matches per minute.
 
 ## License
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
