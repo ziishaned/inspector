@@ -1,0 +1,18 @@
+{
+    "name": "zeeshan/inspector",
+    "description": "Inspector is PHP wrapper to search people profiles on different social networks e.g facebook, twitter, google+ etc.",
+    "type": "Library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Zeeshan Ahmed",
+            "email": "ziishaned@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Zeeshan\\Inspector\\": "src/"
+        }
+    },
+    "require": {}
+}
