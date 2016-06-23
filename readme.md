@@ -17,6 +17,24 @@ For further details you can find the package at <a href="https://packagist.org/p
 - Copy <code>src</code> to your codebase, perhaps to the vendor directory.
 - Add the <code>Zeeshan\Inspector\Inspector</code> class to your autoloader or require the file directly.
 
+##Getting Started
+I'm going to use the following email address to demonstrate the usage of this php wrapper.
+
+>ziishaned@gmail.com
+
+```php
+$inspector = new Inspector($apiKey);
+$person = $inspector->getProfile("kamranahmed.se@gmail.com");
+
+$person->getPhotos();
+$person->getContactInfo();
+$person->getOrganizations();
+$person->getDemographics();
+$person->getSocialProfiles();
+$person->getInterests();
+$person->getEmail();
+```
+
 ##Feedback
 If you notice that there might be some improvements in code you can create a pull request or report an issue. You can also contact me at <a href="mailto:ziishaned@gmail.com">ziishaned@gmail.com</a>.
 
