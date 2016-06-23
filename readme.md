@@ -24,7 +24,7 @@ I'm going to use the following email address to demonstrate the usage of this ph
 
 ```php
 $inspector = new Inspector($apiKey);
-$person = $inspector->getProfile("kamranahmed.se@gmail.com");
+$person = $inspector->getProfile("ziishaned@gmail.com");
 
 $person->getPhotos();
 $person->getContactInfo();
