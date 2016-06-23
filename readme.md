@@ -46,7 +46,7 @@ $person->getContactInfo();
 // An array of found contact info e.g websites and full name
 // [
 //    "websites" =>  [
-//         [
+//          [
 //             "url" => "http://kamranahmed.info",
 //          ],
 //          [
@@ -69,7 +69,7 @@ $person->getOrganizations();
 // ]
 
 $person->getDemographics();
-// An array of organizations found in which he worked or currently working
+// An array of information about the user location
 // [
 //    [
 //    	  "locationDeduced"	=> [
@@ -91,8 +91,29 @@ $person->getDemographics();
 // ]
 
 $person->getSocialProfiles();
+// An array of user social network links or information
+// [
+//    [
+//    	  "bio" 	 => "Full Stack Web Engineer, Blogger, Freelancer, IT Enthusiast, Open Source and Web Lover, PHP and Javascript Fanatic, http://t.co/8lHamq4FpE",
+//        "typeName" => "Twitter",
+//        "url"		 => "https://twitter.com/kamranahmed_se",
+//        "username" => "kamranahmed_se",              
+//    ],
+//	  [..],
+//	  [..],
+//	  [..],
+//	  [..],
+// ]
+
 $person->getInterests();
+// An array of user digital Footprint or user interests
+// [
+//    "Blogging", "Cloud Computing", "Software Development", "Cybersecurity", "Hacking",
+// ]
+
 $person->getEmail();
+// User email address
+// "kamranahmed.se@gmail.com"
 ```
 
 ## Feedback
