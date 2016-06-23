@@ -8,7 +8,7 @@ You can install the library using the following ways:
 You can install this through <a href="http://getcomposer.org/">Composer</a>, a dependency manager for PHP. Just run the below command:
 
 ```
-composer require zeeshanu/Inspector
+composer require zeeshanu/inspector
 ```
 
 For further details you can find the package at <a href="https://packagist.org/packages/zeeshanu/inspector">Packagist</a>.
