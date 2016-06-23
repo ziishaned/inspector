@@ -43,6 +43,18 @@ $person->getPhotos();
 // ]
 
 $person->getContactInfo();
+// An array of found contact info e.g websites and full name
+// [
+//    "websites" =>  [
+//                      [
+//                          "url" => "http://kamranahmed.info",
+//                        ],
+//                        [
+//                            "url" => "http://storkdesigns.tk",
+//                        ],
+//                    ],
+//    "fullName" => "Kamran Ahmed",
+// ]
 
 $person->getOrganizations();
 $person->getDemographics();
