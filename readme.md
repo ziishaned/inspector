@@ -1,8 +1,4 @@
 #Inspector
-[![Code Climate](https://codeclimate.com/repos/576ab2d18955b300900019bc/badges/17ee5ae2c2c22651d6f9/gpa.svg)](https://codeclimate.com/repos/576ab2d18955b300900019bc/feed)
-[![Latest Stable Version](https://poser.pugx.org/zeeshanu/inspector/v/stable.svg)](https://packagist.org/packages/zeeshanu/inspector)
-[![License](https://poser.pugx.org/zeeshanu/inspector/license)](https://packagist.org/packages/zeeshanu/inspector)
-
 Inspector is PHP wrapper that fetches people complete profiles detail from different sources using user email address.
 
 ##Installation
