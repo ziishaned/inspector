@@ -1,6 +1,7 @@
 {
     "name": "zeeshan/inspector",
-    "description": "Inspector is PHP wrapper to search people profiles on different social networks e.g facebook, twitter, google+ etc.",
+    "description": "Inspector is PHP wrapper that fetches people complete profiles detail from different sources using user email address. — Edit
+",
     "type": "Library",
     "license": "MIT",
     "authors": [
