@@ -1,6 +1,6 @@
 #Inspector
 
-Inspector - A PHP library that fetches the social accounts, website, name, photos, employment history and other details possible for the user by his email.
+Inspector - A PHP library that fetches the social accounts, website, name, photos, employment history and other details possible for the user by their email.
 
 ##Installation
 You can install the library using the following ways:
