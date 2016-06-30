@@ -21,14 +21,14 @@ For further details you can find the package at <a href="https://packagist.org/p
 ##Getting Started
 I'm going to use the following email address to demonstrate the usage of this php wrapper.
 
->ziishaned@gmail.com
+>kamranahmed.se@gmail.com
 
 ```php
 // Your FulContact API key https://portal.fullcontact.com/signup
 $apiKey = "";
 
 $inspector = new Inspector($apiKey);
-$person = $inspector->getProfile("ziishaned@gmail.com");
+$person = $inspector->getProfile("kamranahmed.se@gmail.com");
 
 $person->getPhotos();
 // An array of arrays where typename could be one of 'facebook', 'Gravatar', 'Twitter' etc
