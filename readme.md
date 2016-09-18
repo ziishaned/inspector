@@ -1,11 +1,11 @@
-#Inspector
+# :mag: Inspector
 
 Inspector - A PHP library that fetches the social accounts, website, name, photos, employment history and other details possible for the user by their email.
 
-##Installation
+## Installation
 You can install the library using the following ways:
 
-##Using Composer
+## Using Composer
 You can install this through <a href="http://getcomposer.org/">Composer</a>, a dependency manager for PHP. Just run the below command:
 
 ```
@@ -14,11 +14,11 @@ composer require zeeshanu/inspector
 
 For further details you can find the package at <a href="https://packagist.org/packages/zeeshanu/inspector">Packagist</a>.
 
-##Manual way
+## Manual way
 - Copy <code>src</code> to your codebase, perhaps to the vendor directory.
 - Add the <code>Zeeshan\Inspector\Inspector</code> class to your autoloader or require the file directly.
 
-##Getting Started
+## Getting Started
 I'm going to use the following email address to demonstrate the usage of this php wrapper.
 
 >kamranahmed.se@gmail.com
