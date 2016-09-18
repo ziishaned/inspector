@@ -21,14 +21,14 @@ For further details you can find the package at <a href="https://packagist.org/p
 ## Getting Started
 I'm going to use the following email address to demonstrate the usage of this php wrapper.
 
->kamranahmed.se@gmail.com
+> ziishaned@gmail.com
 
 ```php
 // Your FulContact API key https://portal.fullcontact.com/signup
 $apiKey = "";
 
 $inspector = new Inspector($apiKey);
-$person = $inspector->getProfile("kamranahmed.se@gmail.com");
+$person = $inspector->getProfile("ziishaned@gmail.com");
 
 $person->getPhotos();
 // An array of arrays where typename could be one of 'facebook', 'Gravatar', 'Twitter' etc
@@ -47,20 +47,17 @@ $person->getContactInfo();
 // [
 //    "websites" =>  [
 //          [
-//             "url" => "http://kamranahmed.info",
-//          ],
-//          [
-//             "url" => "http://storkdesigns.tk",
+//             "url" => "http://webxyz.com",
 //          ],
 //     ],
-//     "fullName" => "Kamran Ahmed",
+//     "fullName" => "Zeeshan Ahmed",
 // ]
 
 $person->getOrganizations();
 // An array of organizations found in which he worked or currently working
 // [
 //    [
-//        "name"        => "Strategic Systems International",
+//        "name"        => "Company XYZ",
 //        "startDate"   => "2014-07",
 //        "title"       => "Software Engineer",
 //        "current"     => true,               
@@ -94,10 +91,10 @@ $person->getSocialProfiles();
 // An array of user social network links or information
 // [
 //    [
-//        "bio"      => "Full Stack Web Engineer, Blogger, Freelancer, IT Enthusiast, Open Source and Web Lover, PHP and Javascript Fanatic, http://t.co/8lHamq4FpE",
+//        "bio"      => "Full Stack Web Engineer, Blogger, Freelancer, IT Enthusiast, Open Source and Web Lover, PHP and Javascript Fanatic",
 //        "typeName" => "Twitter",
-//        "url"      => "https://twitter.com/kamranahmed_se",
-//        "username" => "kamranahmed_se",              
+//        "url"      => "https://twitter.com/ziishaned",
+//        "username" => "ziishaned",              
 //    ],
 //    [..],
 //    [..],
@@ -113,7 +110,7 @@ $person->getInterests();
 
 $person->getEmail();
 // User email address
-// "kamranahmed.se@gmail.com"
+// "ziishaned@gmail.com"
 ```
 
 ## Feedback
